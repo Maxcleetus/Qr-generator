@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(85, 125, 201, 0.762);
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+    margin: 100px auto;
+}
+.container h1{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.689);
+    position: absolute;
+    top: 8px;
+    left: 147px;
+}
+.container .link{
+    color: rgba(0, 0, 0, 0.689);
+    position: absolute;
+    top: 92px;
+    left: 179px;
+}
+.container input{
+    position: absolute;
+    top: 122px;
+    left:162px;
+    outline: 0;
+    background-color:rgba(0, 0, 0, 0.689);
+    border: 1px solid black;
+    color: white;
+}
+.container button{
+    position: absolute;
+    top: 335px;
+    left: 164px;
+    width: 159px;
+    height: 22px;
+    background-color:rgba(0, 0, 0, 0.689);
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .result{
+    height: 180px;
+    width: 175px;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid black;
+    top: 146px;
+    left: 155px;
+    border-radius: 5px;
+}
+.error{
+    animation: shake 0.1s linear 10;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
