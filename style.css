@@ -21,13 +21,13 @@ body{
 }
 .container h1{
     font-size: 26px;
-    color: rgba(0, 0, 0, 0.689);
+    color: black;
     position: absolute;
     top: 26px;
     left: 130px;
 }
 .container .link{
-    color: rgba(0, 0, 0, 0.689);
+    color: 	black;
     position: absolute;
     top: 75px;
     font-weight: 900;
@@ -44,7 +44,7 @@ body{
     outline: 0;
     background-color: rgba(0, 0, 0, 0.689);
     border: 1px solid black;
-    color: white;
+    color: #b0a69d;
 }
 .container button{
     position: absolute;
@@ -54,7 +54,7 @@ body{
     margin: 0px;
     height: 38px;
     background-color: rgba(0, 0, 0, 0.689);
-    color: white;
+    color: #5C4033;
     font-size: 10px;
     border-radius: 5px;
     cursor: pointer;
