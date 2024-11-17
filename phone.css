@@ -1,0 +1,24 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 361px;
+    margin-top: 50%;
+}
+.container h1{
+    left: 87px;
+}
+.container .link{
+    top: 71px;
+    left: 116px;
+}
+.container input{
+    left: 66px;
+}
+.container .result{
+    left: 97px;
+}
+.container button{
+    top: 400px;
+    left: 127px;
+}
