@@ -21,13 +21,13 @@ body{
 }
 .container h1{
     font-size: 26px;
-    color: black;
+    color: #a5a091;
     position: absolute;
     top: 26px;
     left: 130px;
 }
 .container .link{
-    color: 	black;
+    color: #a5a091;
     position: absolute;
     top: 75px;
     font-weight: 900;
